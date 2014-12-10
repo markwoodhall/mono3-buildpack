@@ -2,6 +2,8 @@
 
 cat << EOF
 ---
+default_process_types:
+    web: make run
 config_vars:
     PATH: "/app/vendor/mono3/bin:/usr/local/bin:/usr/bin/:/bin"
 EOF
